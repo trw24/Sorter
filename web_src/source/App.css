@@ -1,0 +1,34 @@
+/*
+	Put anything you reference with "url()" in ../assets/
+	This way, you can minify your application, and just remove the "source" folder for production
+*/
+.nice-padding {
+	padding: 15px;
+}
+
+.column-both {
+
+	font-size:20px;
+	background-color:gray;
+}
+
+.column-left {
+
+	padding:6px;
+	width:122px;
+	margin-right:10px;
+	text-align:right;
+}
+
+.column-right {
+
+	margin-left:10px;
+	text-align:left;
+	white-space:normal;
+	word-break:break-all;
+	font-family: "Droid Sans Mono", Courier, courier, monospace;
+}
+
+
+
+
