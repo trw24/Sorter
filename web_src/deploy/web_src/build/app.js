@@ -4416,7 +4416,7 @@ this.setShowing(!1);
 }
 });
 
-// mySortMachine.js
+// MySortMachine.js
 
 var mySortMachine = {};
 
@@ -4574,7 +4574,7 @@ this.inherited(arguments), this.clearTapped();
 },
 aboutTapped: function(e, t) {
 var n = "";
-n += "Merge sort is programmed recursively in javascript.<br />", n += "<br />", n += "Javascript Framework is Enyo<br />", n += "Platform Support by Cordova<br />", n += "Designed and Programmed by Troy", this.$.popupContent.setContent(n), this.$.aboutPopup.show();
+n += "Merge sort is programmed recursively in javascript.<br />", n += "<br />", n += "Javascript Framework is Enyo<br />", n += "Platform Support by Cordova<br />", n += "Designed and Programmed by Troy<br />", n += "Copyright 2014 by Troy", this.$.popupContent.setContent(n), this.$.aboutPopup.show();
 },
 aboutHide: function(e, t) {
 this.$.aboutPopup.hide();

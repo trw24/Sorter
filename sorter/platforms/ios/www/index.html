@@ -27,10 +27,15 @@
 				location = 'debug.html';
 			}
 
+			if (navigator.userAgent.match(/(iPhone|iPod|iPad|Android)/)) {
 
-            enyo.dispatcher.listen(document, "deviceready");
-	        new CordovaListener();
+				new CordovaListener();		        
 
+			} else {
+
+				myApp = new MyApp();
+				myApp.renderInto(document.body);
+			}
 
 		</script>
 	</body>

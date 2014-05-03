@@ -4565,6 +4565,9 @@ kind: "FittableRows",
 allowHtml: !0,
 style: "font-size:18px;padding: 15px;line-height: 150%;background-color:#C9B4A5;text-align: center;"
 } ]
+}, {
+kind: "Signals",
+onbackbutton: "backButtonHandler"
 } ],
 create: function() {
 this.inherited(arguments), this.clearTapped();
@@ -4582,5 +4585,8 @@ this.$.aboutPopup.hide(), this.$.inputString.setValue(""), this.$.displayReverse
 inputStringChanged: function(e, t) {
 var n = this.$.inputString.getValue();
 n.length == 0 ? this.clearTapped() : (this.$.displayReverseString.setContent(mySortMachine.reverseString(n)), this.$.displayBubbleSort.setContent(mySortMachine.bubbleSort(n)), mySortMachine.setPrivateArray(n), mySortMachine.mergeSort(), this.$.displayMergeSort.setContent(mySortMachine.getPrivateArray()));
+},
+backButtonHandler: function(e, t) {
+navigator.app.exitApp();
 }
 });
