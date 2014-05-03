@@ -20,8 +20,8 @@
     <feature name="Compass">
         <param name="android-package" value="org.apache.cordova.deviceorientation.CompassListener" />
     </feature>
-    <feature name="SplashScreen">
-        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+    <feature name="Vibration">
+        <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
     </feature>
     <access origin="*" />
     <preference name="useBrowserHistory" value="true" />
@@ -29,7 +29,7 @@
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
     <preference name="Orientation" value="default" />
-    <preference name="KeepRunning" value="false" />
+    <preference name="KeepRunning" value="true" />
     <preference name="splashscreen" value="splash" />
     <preference name="splashScreenDelay" value="10000" />
 </widget>

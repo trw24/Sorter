@@ -1,5 +1,9 @@
 #!/bin/sh 
 
+##
+## Copyright 2014 Troy Weidman
+##
+
 # Set directory and project name
 TARGET="sorter"
 CAPITALIZED_TARGET="Sorter"
@@ -66,17 +70,6 @@ cp -R www_previous/res www
 cd ..
 cp -R web_src/deploy/web_src/*	${TARGET}/www
 
-#
-#
-#
-# mv  ${TARGET}/www/index.html  ${TARGET}/www/main.html
-# cp  ${TARGET}/www_previous/index.html ${TARGET}/www
-
-
-#	Copy over the two libraries
-# cp web_src/cordova.js				${TARGET}/www
-# cp web_src/PushNotification.js	${TARGET}/www
-
 
 echo "TRANSFER:  Finish"
 echo "================================"
@@ -85,7 +78,8 @@ echo "CORDOVA:  Start"
 
 cd ${TARGET}
 
-cordova build >/dev/null 2>/dev/null
+cordova build
+# cordova build >/dev/null 2>/dev/null
 if [ "$?" -eq 0 ]
 then
 	echo "Cordova build successful"

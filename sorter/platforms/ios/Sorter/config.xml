@@ -23,9 +23,8 @@
     <feature name="Compass">
         <param name="ios-package" value="CDVCompass" />
     </feature>
-    <feature name="SplashScreen">
-        <param name="ios-package" value="CDVSplashScreen" />
-        <param name="onload" value="true" />
+    <feature name="Vibration">
+        <param name="ios-package" value="CDVVibration" />
     </feature>
     <access origin="*" />
     <preference name="KeyboardDisplayRequiresUserAction" value="true" />
@@ -43,7 +42,7 @@
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
     <preference name="Orientation" value="default" />
-    <preference name="KeepRunning" value="false" />
+    <preference name="KeepRunning" value="true" />
     <preference name="splashscreen" value="splash" />
     <preference name="splashScreenDelay" value="10000" />
 </widget>

@@ -44,7 +44,7 @@
 /Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/assets/www/plugins/org.apache.cordova.device \
 /Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/assets/www/plugins/org.apache.cordova.device-orientation \
 /Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/assets/www/plugins/org.apache.cordova.dialogs \
-/Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen \
+/Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/assets/www/plugins/org.apache.cordova.vibration \
 /Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/assets/www/plugins/org.apache.cordova.device/www \
 /Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/assets/www/plugins/org.apache.cordova.device/www/device.js \
 /Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/assets/www/plugins/org.apache.cordova.device-orientation/www \
@@ -55,8 +55,8 @@
 /Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www/android \
 /Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www/notification.js \
 /Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www/android/notification.js \
-/Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen/www \
-/Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen/www/splashscreen.js \
+/Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/assets/www/plugins/org.apache.cordova.vibration/www \
+/Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/assets/www/plugins/org.apache.cordova.vibration/www/vibration.js \
 /Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/assets/www/res/icon \
 /Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/assets/www/res/screen \
 /Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/assets/www/res/icon/android \

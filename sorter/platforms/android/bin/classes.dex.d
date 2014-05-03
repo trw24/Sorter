@@ -27,5 +27,5 @@
 /Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/bin/classes/org/apache/cordova/dialogs/Notification$5$1.class \
 /Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/bin/classes/org/apache/cordova/dialogs/Notification$5.class \
 /Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/bin/classes/org/apache/cordova/dialogs/Notification.class \
-/Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/bin/classes/org/apache/cordova/splashscreen/SplashScreen.class \
+/Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/bin/classes/org/apache/cordova/vibration/Vibration.class \
 /Users/troy/Documents/troywork/Edutraining/enyoAndCordova/Sorter/sorter/platforms/android/bin/dexedLibs/cordova-3.1.0-0476435b5b0ee262f187c95d9332daa6.jar \

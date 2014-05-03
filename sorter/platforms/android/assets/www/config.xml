@@ -12,7 +12,7 @@
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
     <preference name="Orientation" value="default" />
-    <preference name="KeepRunning" value="false"/>
+    <preference name="KeepRunning" value="true"/>
     <preference name="splashscreen" value="splash" />
     <preference name="splashScreenDelay" value="10000" />
 </widget>

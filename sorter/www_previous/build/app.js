@@ -4457,8 +4457,20 @@ mySortMachine.reverseString = e, mySortMachine.bubbleSort = t, mySortMachine.set
 
 // App.js
 
-enyo.kind({
-name: "App",
+myApp = {}, enyo.kind({
+name: "CordovaListener",
+components: [ {
+kind: "Signals",
+ondeviceready: "deviceReadyHandler"
+} ],
+deviceReadyHandler: function() {
+myApp = new MyApp, myApp.renderInto(document.body);
+},
+create: function() {
+this.inherited(arguments);
+}
+}), enyo.kind({
+name: "MyApp",
 kind: "FittableRows",
 fit: !0,
 style: "background-color:#E3D8CC;",

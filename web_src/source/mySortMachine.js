@@ -4,7 +4,8 @@
 //
 //	Does various Sorts (including recursive merge sort)
 //
-
+//  Copyright 2014 by Troy Weidman
+//
 
 
 var mySortMachine = {};
@@ -14,6 +15,7 @@ var mySortMachine = {};
 
     //  =======================================
     var reverseString = function(inputString) {
+        // done recursively
 
         // Test for 'base' condition
         if (inputString.length <= 1) {
@@ -76,7 +78,6 @@ var mySortMachine = {};
     }
 
     var mergeSort = function() {
-
         mergeSortHelper(0, (privateArray.length - 1));                  
     }
 

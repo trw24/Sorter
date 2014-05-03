@@ -31,8 +31,8 @@ public class Sorter extends CordovaActivity
         super.init();
         // Set by <content src="index.html" /> in config.xml
         super.setIntegerProperty("loadUrlTimeoutValue", 10000);   // added by Troy
-        super.loadUrl(Config.getStartUrl());
-        //super.loadUrl("file:///android_asset/www/index.html")
+        // super.loadUrl(Config.getStartUrl());
+        super.loadUrl("file:///android_asset/www/index.html");
 
         /*
         // From SmartView
